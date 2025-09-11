@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <div
       style={{
-        height: "100vh",
+        height: "101vh",
         width: "100%",
         background: "linear-gradient(135deg, #d9afd9 0%, #97d9e1 100%)",
         position: "relative",

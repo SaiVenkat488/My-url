@@ -16,7 +16,7 @@ export default function ProfilePage() {
         <img
           src={user.photo}
           alt="Profile"
-          className="w-10 h-10 rounded-full border-4 border-blue-500 shadow-md"
+          className="w-2 h-2 rounded-full border-4 border-blue-500 shadow-md"
         />
 
         {/* User Details */}
