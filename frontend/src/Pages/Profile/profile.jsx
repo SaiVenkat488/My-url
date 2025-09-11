@@ -1,11 +1,10 @@
 import React from "react";
-import profilePic from "./assets/Profile.jpg";
 
 export default function ProfilePage() {
   const user = {
     name: "Sai Venkat Reddy",
     id: "2210030xxx",
-    mobile: "+91 701xxxx224",
+    mobile: "+91 70xxxxxx24",
     photo: "Profile.jpg", // Coin-size image
   };
 
@@ -51,7 +50,7 @@ export default function ProfilePage() {
       <div className="profile-container">
         <div className="profile-card">
           {/* Profile Image */}
-          <img src={profilePic} alt="Profile" className="profile-img" />
+          <img src={Profile.jpg} alt="Profile" className="profile-img" />
 
           {/* User Details */}
           <h2 className="profile-name">{user.name}</h2>
