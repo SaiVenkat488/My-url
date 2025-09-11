@@ -1,11 +1,12 @@
 import React from "react";
+import profilePic from "./assets/Profile.jpg";
 
 export default function ProfilePage() {
   const user = {
     name: "Sai Venkat Reddy",
     id: "2210030xxx",
     mobile: "+91 701xxxx224",
-    photo: "Profile.jpg", // Coin-size image
+    photo: {profilePic}, // Coin-size image
   };
 
   return (
