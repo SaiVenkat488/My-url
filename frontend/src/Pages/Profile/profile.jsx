@@ -6,7 +6,7 @@ export default function ProfilePage() {
     name: "Sai Venkat Reddy",
     id: "2210030xxx",
     mobile: "+91 701xxxx224",
-    photo: {profilePic}, // Coin-size image
+    photo: "Profile.jpg", // Coin-size image
   };
 
   return (
