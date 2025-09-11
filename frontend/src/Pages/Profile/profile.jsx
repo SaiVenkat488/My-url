@@ -6,7 +6,7 @@ export default function ProfilePage() {
     id: "2210030488",
     mobile: "+91 7013263224",
     photo:
-      "c:\Users\saive\OneDrive\Desktop\Profile.jpg", // replace with actual profile photo URL
+      "https://wallpapers.com/images/featured/cool-profile-pictures-4co57dtwk64fb7lv.jpg", // replace with actual profile photo URL
   };
 
   return (
