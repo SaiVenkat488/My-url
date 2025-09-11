@@ -2,11 +2,11 @@ import React from "react";
 
 export default function ProfilePage() {
   const user = {
-    name: "John Doe",
-    id: "EMP12345",
-    mobile: "+91 9876543210",
+    name: "Sai Venkat Reddy",
+    id: "2210030488",
+    mobile: "+91 7013263224",
     photo:
-      "https://via.placeholder.com/150", // replace with actual profile photo URL
+      "c:\Users\saive\OneDrive\Desktop\Profile.jpg", // replace with actual profile photo URL
   };
 
   return (
