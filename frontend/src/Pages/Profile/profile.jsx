@@ -50,7 +50,7 @@ export default function ProfilePage() {
       <div className="profile-container">
         <div className="profile-card">
           {/* Profile Image */}
-          <img src={user.photo} alt="Profile" className="profile-img" />
+          <img alt="Profile" className="profile-img" src="Profile.jpg"/>
 
           {/* User Details */}
           <h2 className="profile-name">{user.name}</h2>
