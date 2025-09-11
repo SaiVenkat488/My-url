@@ -3,27 +3,61 @@ import React from "react";
 export default function ProfilePage() {
   const user = {
     name: "Sai Venkat Reddy",
-    id: "2210030488",
-    mobile: "+91 7013xxxxx",
-    photo:
-      "https://www.bing.com/th/id/OIP.9lp-AzhvWVzYdKMb9E8tLQHaHs?w=215&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2", // smaller image placeholder
+    id: "2210030xxx",
+    mobile: "+91 701xxxx224",
+    photo: "Profile.png", // Coin-size image
   };
 
   return (
-   <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="flex flex-col items-center bg-white shadow-lg rounded-2xl p-8 w-full max-w-xs text-center">
-        {/* Round Coin-Size Profile Image */}
-        <img
-          src={user.photo}
-          alt="Profile"
-          className="w-20 h-20 rounded-full border-2 border-blue-500 shadow-md"
-        />
+    <>
+      <style>{`
+        .profile-container {
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #f3f4f6;
+        }
+        .profile-card {
+          background: white;
+          padding: 30px;
+          border-radius: 15px;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+          text-align: center;
+          width: 280px;
+        }
+        .profile-img {
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          border: 2px solid #3b82f6;
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+          margin-bottom: 15px;
+        }
+        .profile-name {
+          font-size: 20px;
+          font-weight: bold;
+          color: #333;
+          margin: 10px 0;
+        }
+        .profile-detail {
+          font-size: 16px;
+          color: #666;
+          margin: 4px 0;
+        }
+      `}</style>
 
-        {/* User Details */}
-        <h2 className="mt-4 text-lg font-bold text-gray-800">{user.name}</h2>
-        <p className="text-gray-600">ID: {user.id}</p>
-        <p className="text-gray-600">Mobile: {user.mobile}</p>
+      <div className="profile-container">
+        <div className="profile-card">
+          {/* Profile Image */}
+          <img src={user.photo} alt="Profile" className="profile-img" />
+
+          {/* User Details */}
+          <h2 className="profile-name">{user.name}</h2>
+          <p className="profile-detail">ID: {user.id}</p>
+          <p className="profile-detail">Mobile: {user.mobile}</p>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
