@@ -6,7 +6,7 @@ import './index.css';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import { HeaderMegaMenu } from './Components/Navbar/HeaderMegaMenu';
 import UrlShortener from './Pages/UrlShortener';
-import Profile from './Pages/Profile';
+import Profile from './Pages/Profile/profile';
 
 function App() {
   return (

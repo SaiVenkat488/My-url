@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Service from '../utils/http';
+import Service from '../../utils/http';
 import { Card, Image, Text, Badge, Button, Group, Avatar, Center } from '@mantine/core';
 
 const Profile = () => {

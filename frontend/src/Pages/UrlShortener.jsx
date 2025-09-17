@@ -2,6 +2,7 @@ import { useState } from "react";
 import { TextInput, Center, Stack, Text, Button, Anchor } from "@mantine/core";
 import Service from "../utils/http";
 import {QRCodeSVG} from 'qrcode.react';
+import QRCode from "qrcode.react";
 
 const UrlShortener = () => {
   const [originalUrl, setOriginalUrl] = useState("");
