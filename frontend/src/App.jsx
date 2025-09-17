@@ -5,7 +5,7 @@ import LoginPage from './Pages/LoginPage/LoginPage';
 import './index.css';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import { HeaderMegaMenu } from './Components/Navbar/HeaderMegaMenu';
-import UrlShortner from './Pages/UrlShortner';
+import UrlShortener from './Pages/UrlShortener';
 import Profile from './Pages/Profile';
 
 function App() {
